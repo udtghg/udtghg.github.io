@@ -52,9 +52,11 @@ The Potential for Intervention (PFI) map is created using Multiple-Criteria Deci
 
 ![Normalisation of parameters of varying scale using a sigmoid function](/assets/images/PFI_1.jpg)
 
-After the normalisation step, each parameter is aggregated to find the Potential for Intervention (The higher the value, the more the PFI). The result of the aggregate potential for intervention with each parameter of the same weightage assigned (1) (see Figure below with PFI map). The dashboard uses this method to generate PFI for users, additionally, it gives users an option to change the weightage of parameters based on their priority and the dashboard intuitively creates a PFI map with newly assigned weights. Once the PFI is generated, users can examine buildings with higher PFI values to plan an intervention.
+After the normalisation step, each parameter is aggregated to find the Potential for Intervention (the higher the value, the more the PFI). The result of the aggregate potential for intervention with each parameter of the same weightage assigned (1) (see Figure below with PFI map). The dashboard uses this method to generate PFI for users, additionally, it gives users an option to change the weightage of parameters based on their priority and the dashboard intuitively creates a PFI map with newly assigned weights. Once the PFI is generated, users can examine buildings with higher PFI values to plan an intervention.
 
 ### Aggregate Potential for Intervention after Normalisation:
+
+PFI was calculated for buildings with equal parameter weightage (1) and with <a href="https://en.wikipedia.org/wiki/Quantile">quantile</a> distribution (equal probability). A sample of the PFI analysis result is shown below.
 
 ![Aggregate Potential for Intervention after normalisation](/assets/images/PFI_2.jpg)
 
@@ -69,4 +71,4 @@ The dashboard image below shows an example of Scene 2, with potential of interve
 
 * This research will increase the demand for more environmental consideration from stakeholders during rejuvenation.
 
-* There is currently no cap on GHG emissions in the Built Environment sector. The research will help develop operational GHG emissions accounting standards, emission limits, decarbonisation planning, and climate goals.
+* There is currently no cap on GHG emissions in the Built Environment sector. The research will help develop operational GHG emissions accounting standards, emission limits, decarbonisation planning, and climate resilience.
