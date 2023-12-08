@@ -3,9 +3,9 @@ layout: default
 ---
 [back](./)
 
-[Research Project](./another-page.html)
+[Research Project](./project-page.html)
 [UDT-GHG](./app-page.html)
-[Instructions](./instruction-page.html)
+[Bio](./bio-page.html)
 
 ## User Feedback for UDT-GHG Dashboard
 
