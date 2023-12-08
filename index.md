@@ -12,16 +12,21 @@ layout: default
 * * *
 
 ### Instruction Video
+There are two scenes that users can set using the dashboard's top-left drop-down button.
+
+* Scene 1 (default) : GHG emissions - users can view operational ghg emissions and electricity consumption trends for built environment in Singapore.
+* Scene 2 : Potential for Intervention - users can run analysis to find buildings which need rejuvenation of building systems and an intervention from stakeholder towards decarbonisation pathway. Using weighted sliders, users can prioritise necessary parameters for decision-making of an intervention.
 
 <iframe width="1000" height="500" src="https://www.youtube.com/embed/EkGt_DRY8v0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### UDT-GHG Dashboard
+### UDT-GHG Dashboard - Scene 1
+The dashboard image below shows an example of Scene 1, with operational GHG emissions of buildings shown in a heat map (Red=very high GHG values and Blue=very low GHG values). The GHG inventory along with equipment-based-emissions for individual buildings (on-left-click) is shown on the top-left of dashboard. Electricity consumption trends at the bottom of the dashboard and metadata (right) with simulation results and information collected (building property, land-use, planning area, energy-use etc.) from open sources.
 
 ![Dashboard](assets\images\dashboard.jpg)
 
 * * *
 
-## Methodology for calculating building operational Greenhouse gas (GHG) emissions
+## Methodology for calculating building operational greenhouse gas (GHG) emissions
 
 * * *
 
@@ -29,11 +34,11 @@ layout: default
 
 ![The operational GHG emissions (Og) of buildings (CO2e/kWh—carbon dioxide equivalent per kilowatt hour) are calculated using a linear equation](/assets/images/linear_equation.jpg)
 
-Electricity demand (Del) in kWh (kilowatt-hours) by average values indicated in national benchmarking reports or results from a simulated energy demand model (CEA) or actual meter reading.
+Electricity demand (Del) in kWh (kilowatt-hours) by average values indicated in energy statistics <a href="https://www.ema.gov.sg/resources/singapore-energy-statistics/chapter3">reports</a>, national benchmarking <a href="https://www.bca.gov.sg/bess/benchmarkingreport/benchmarkingreport.aspx">reports</a> or results from a simulated energy demand model (CEA) or actual meter reading.
 
-The electricity grid emission factor is the average amount of CO2 that each grid-connected power unit emits per unit of net electricity produced in the system (Energy Market Authority-EMA's yearly Singapore energy statistics report provides the emission factor for Singapore).
+The electricity grid emission factor is the average amount of CO2 that each grid-connected power unit emits per unit of net electricity produced in the system (Energy Market Authority-EMA's yearly Singapore energy statistics <a href="https://www.ema.gov.sg/resources/singapore-energy-statistics/chapter2">report</a> provides the emission factor for Singapore).
 
-The Global Warming Potential (GWP) for each of the seven major GHGs [carbon dioxide (CO2), methane (CH4), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulfur hexafluoride (SF6), nitrous oxide (N2O), and nitrogen trifluoride (NF3)], compares the contribution of a given mass of a GHG to that of CO2 in terms of global warming over a definite time frame (for instance, 100 years). The GWP values for the most common GHGs (CO2, CH4, N2O) can be found in the Intergovernmental Panel on Climate Change (IPCC) reports.
+The Global Warming Potential (GWP) for each of the seven major GHGs [carbon dioxide (CO2), methane (CH4), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulfur hexafluoride (SF6), nitrous oxide (N2O), and nitrogen trifluoride (NF3)], compares the contribution of a given mass of a GHG to that of CO2 in terms of global warming over a definite time frame (for instance, 100 years). The GWP values for the most common GHGs (CO2, CH4, N2O) can be found in the Intergovernmental Panel on Climate Change (IPCC) <a href="https://www.ipcc.ch/assessment-report/ar6/">report</a>.
 
 * * *
 
@@ -52,6 +57,11 @@ After the normalisation step, each parameter is aggregated to find the Potential
 ### Aggregate Potential for Intervention after Normalisation:
 
 ![Aggregate Potential for Intervention after normalisation](/assets/images/PFI_2.jpg)
+
+### UDT-GHG Dashboard - Scene 2
+The dashboard image below shows an example of Scene 2, with potential of intervention analysis shown in a heat map (Purple=very high PFI values and Green=very low PFI values). Users can input weightages to the parameter using the slider (left-bottom) on the dashboard. By default, parameter weightages on the slider assigned to generate PFI maps are set to 1. Users may assign weightage based on their priority.
+
+![Dashboard](assets\images\dashboard2.jpg)
 
 ### Conclusion:
 
