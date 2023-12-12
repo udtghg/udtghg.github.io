@@ -5,7 +5,7 @@ layout: default
 [Research Project](./project-page.html)
 [UDT GHG](./app-page.html)
 [User feedback](./feedback-page.html)
-[Bio](./bio-page.html)
+[Developer Bio](./bio-page.html)
 
 ## Instructions on how to use UDT-GHG Dashboard
 
