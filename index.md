@@ -65,6 +65,9 @@ The dashboard image below shows an example of Scene 2, with potential of interve
 
 ![Dashboard](assets\images\dashboard2.jpg)
 
+### User Task:
+Try to find residential buildings that need rejuvenation in 2040 in the Planning Area with HDB estates (eg: Queenstown, Punggol, Tampines etc.), keeping reducing GHG emissions as a priority.
+
 ### Conclusion:
 
 * The UDT-GHG dashboard and PFI analysis help decision-makers prioritise and plan low-carbon building systems rejuvenation.
