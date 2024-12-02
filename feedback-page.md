@@ -4,10 +4,10 @@ layout: default
 [back](./)
 
 [Research Project](./project-page.html)
-[UDT-GHG](./app-page.html)
+[GHG App](./app-page.html)
 [Developer Bio](./bio-page.html)
 
-## User Feedback for UDT-GHG Dashboard
+## User Feedback for GHG App Dashboard
 
 * * *
 

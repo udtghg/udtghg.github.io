@@ -7,7 +7,7 @@ layout: default
 [User feedback](./feedback-page.html)
 [Developer Bio](./bio-page.html)
 
-## UDT-GHG Dashboard
+## GHG App Dashboard
 
 * * *
 

@@ -7,19 +7,19 @@ layout: default
 [User feedback](./feedback-page.html)
 [Developer Bio](./bio-page.html)
 
-## Instructions on how to use UDT-GHG Dashboard
+## Instructions on how to use GHG App Dashboard
 
 * * *
 
-### Instruction Video
+### Instruction Video 1
 There are two scenes that users can set using the dashboard's top-left drop-down button.
 
 * Scene 1 (default) : GHG emissions - users can view operational ghg emissions and electricity consumption trends for built environment in Singapore.
 * Scene 2 : Potential for Intervention - users can run analysis to find buildings which need rejuvenation of building systems and an intervention from stakeholder towards decarbonisation pathway. Using weighted sliders, users can prioritise necessary parameters for decision-making of an intervention.
 
-<iframe width="1000" height="500" src="https://www.youtube.com/embed/m5d0YAHlLHc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="1000" height="500" src="https://www.youtube.com/embed/m5d0YAHlLHc?si=JSJDxVzTRXYyX6z_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### UDT-GHG Dashboard - Scene 1
+### GHG App Dashboard - Scene 1
 The dashboard image below shows an example of Scene 1, with operational GHG emissions of buildings shown in a heat map (Red=very high GHG values and Blue=very low GHG values). The GHG inventory along with equipment-based-emissions for individual buildings (on-left-click) is shown on the top-left of dashboard. Electricity consumption trends at the bottom of the dashboard and metadata (right) with simulation results and information collected (building property, land-use, planning area, energy-use etc.) from open sources.
 
 ![Dashboard](assets\images\dashboard.jpg)
@@ -60,7 +60,7 @@ PFI was calculated for buildings with equal parameter weightage (1) and with <a 
 
 ![Aggregate Potential for Intervention after normalisation](/assets/images/PFI_2.jpg)
 
-### UDT-GHG Dashboard - Scene 2
+### GHG App Dashboard - Scene 2
 The dashboard image below shows an example of Scene 2, with potential of intervention analysis shown in a heat map (Purple=very high PFI values and Green=very low PFI values). Users can input weightages to the parameter using the slider (left-bottom) on the dashboard. By default, parameter weightages on the slider assigned to generate PFI maps are set to 1. Users may assign weightage based on their priority.
 
 ![Dashboard](assets\images\dashboard2.jpg)
@@ -68,9 +68,22 @@ The dashboard image below shows an example of Scene 2, with potential of interve
 ### User Task:
 Try to find residential buildings that need rejuvenation in 2040 in the Planning Area with HDB estates (eg: Queenstown, Punggol, Tampines etc.), keeping reducing GHG emissions as a priority.
 
+## Instructions on how to use ChatGHG - A conversational agent to learn more about GHG emissions in Singapore
+
+* * *
+
+### Instruction Video 2
+ChatGHG icon (orange color) appears at the right bottom of the dashboard. Click to maximise the icon.
+
+The ChatGHG is a custom-built conversational AI developed using <a href="https://frs.ethz.ch/applications/frs-chatbot.html">FRS BounceBack</a>, engages users with tailored information about GHG emissions specific to Singapore’s context. It guides users through complex topics, from understanding GHG data to exploring strategies for reducing emissions.
+
+<iframe width="1000" height="500" src="https://www.youtube.com/embed/lBoJK8CU5gU?si=xBUbI2Ci2VApGqQj" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+* What do you want to ask ChatGHG?
+
 ### Conclusion:
 
-* The UDT-GHG dashboard and PFI analysis help decision-makers prioritise and plan low-carbon building systems rejuvenation.
+* The GHG App dashboard and PFI analysis help decision-makers prioritise and plan low-carbon building systems rejuvenation.
 
 * This research will increase the demand for more environmental consideration from stakeholders during rejuvenation.
 
