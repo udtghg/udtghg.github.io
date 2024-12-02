@@ -3,7 +3,7 @@ layout: default
 ---
 
 [Research Project](./project-page.html)
-[UDT GHG](./app-page.html)
+[GHG App](./app-page.html)
 [User feedback](./feedback-page.html)
 [Developer Bio](./bio-page.html)
 
